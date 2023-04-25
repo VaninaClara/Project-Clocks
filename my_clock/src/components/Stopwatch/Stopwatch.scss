@@ -50,3 +50,19 @@ button {
       background-color: $button-hover-background-color;
     }
   }
+
+  @media (max-width: 768px) {
+    .stopwatch {
+      font-size: 3rem;
+      padding: 0.8rem;
+      margin: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .stopwatch {
+      font-size: 2rem;
+      padding: 0.6rem;
+      margin: 1rem;
+    }
+  }
