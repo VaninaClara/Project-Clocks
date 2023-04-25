@@ -1,0 +1,29 @@
+$background-color: #75aadb; 
+$text-color: #ffffff; 
+$clock-font-size: 4rem;
+$clock-border-radius: 10px;
+$clock-padding: 1rem;
+$clock-margin: 2rem;
+$box-shadow-color: rgba(0, 0, 0, 0.25);
+
+.countdown {
+    background-color: $background-color;
+    color: $text-color;
+    font-size: $clock-font-size;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: $clock-border-radius;
+    padding: $clock-padding;
+    margin: $clock-margin;
+    box-shadow: 0 4px 6px $box-shadow-color;
+  }
+  
+  .countdown h2 {
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+
+  .countdown h5 {
+     margin: 0;
+  }
+  

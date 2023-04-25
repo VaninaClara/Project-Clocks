@@ -1,0 +1,15 @@
+.background {
+    background-image: url('https://fondosmil.com/fondo/10793.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock-container {
+    padding: 1rem;
+  }
